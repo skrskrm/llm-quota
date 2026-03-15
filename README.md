@@ -1,6 +1,6 @@
 # llmquota
 
-`llmquota` is a small CLI for checking subscription usage across Claude, Gemini, and DeepSeek from locally logged-in CLI sessions and API keys.
+`llmquota` is a small CLI for monitoring token usage of Claude, Gemini, and DeepSeek from local terminal.
 
 ## Install
 
