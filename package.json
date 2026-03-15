@@ -1,0 +1,39 @@
+{
+  "name": "llmquota",
+  "version": "0.3.0",
+  "description": "CLI for tracking AI subscription usage across Claude, Gemini, and DeepSeek",
+  "type": "commonjs",
+  "bin": {
+    "llmquota": "bin/llmquota.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "fonts",
+    "scripts",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check bin/llmquota.js",
+    "status": "node bin/llmquota.js --status",
+    "text": "node bin/llmquota.js --text",
+    "postinstall": "node scripts/postinstall-fonts.js"
+  },
+  "keywords": [
+    "ai",
+    "subscription",
+    "usage",
+    "claude",
+    "gemini",
+    "deepseek",
+    "cli"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cellgauge": "^0.1.0"
+  },
+  "license": "MIT"
+}
